@@ -1,0 +1,87 @@
+.account, .basket, .likes{
+    color: black;
+    height: 50px;
+    width: 50px;
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 0px 0px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 101;
+    white-space: nowrap;
+}
+.likes {
+    background: url(/images/navbar/heart-shape-outline.png) center 12px / 20px no-repeat;
+}
+.basket {
+    background: url(/images/navbar/basket.png) center 12px / 20px no-repeat;
+}
+.account{
+    background: url(/images/navbar/user.png) center 12px / 20px no-repeat;
+}
+
+.bg-orange{
+    background: #fd7e14;
+}
+
+.form-floating input{
+    text-rendering: auto;
+    color: rgb(107, 110, 104);
+    letter-spacing: 0.55px;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    overflow: visible;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    height: auto;
+    padding: 11px 0px;
+    margin: 0px 0px 10px;
+    background-image: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    transition: border-color 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    outline: 0px;
+    font-weight: 500;
+}
+
+#maleGenderLinkBlock{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+#femaleGenderLinkBlock{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+#childGenderLinkBlock{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+
+
+
